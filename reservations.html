@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste of Salone - Reservations & Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">Taste of Salone</a>
+        </div>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservations.html" aria-current="page">Reservations</a></li>
+                <li><a href="reservations.html" class="btn-nav-cta">Book a Table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="form-grid" style="align-items: center; margin-bottom: 40px;">
+            <div>
+                <p style="text-transform: uppercase; letter-spacing: 1px; font-size: 0.85rem; color: #aaa;">Get In Touch</p>
+                <h1>Book a Table or<br>Get in Touch</h1>
+                <p>We'd love to hear from you. Make a reservation, ask a question or find us at our location in Freetown.</p>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80" alt="Restaurant dining area" style="height: 200px; object-fit: cover; border-radius: 8px; border: 1px solid #333;">
+            </div>
+        </div>
+
+        <div class="form-grid">
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <div class="card">
+                    <h3>Contact Information</h3>
+                    <p style="margin-bottom: 5px;"><strong>Location:</strong> Lumley Beach Road, Freetown, Sierra Leone</p>
+                    <p style="margin-bottom: 5px;"><strong>Phone:</strong> +232 76 123 456</p>
+                    <p style="margin-bottom: 0;"><strong>Email:</strong> hello@tasteofsalone.sl</p>
+                </div>
+
+                <div class="card">
+                    <h3>Opening Hours</h3>
+                    <p style="margin-bottom: 0;">Monday – Sunday<br>11:00 AM – 10:00 PM<br><span style="font-size: 0.80rem; color: #888;">(Last orders 9:30 PM)</span></p>
+                </div>
+            </div>
+
+            <div>
+                <form>
+                    <h2>Make a Reservation</h2>
+                    
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" required placeholder="Enter your name">
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" required placeholder="+232 ...">
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                        <div>
+                            <label for="date">Date</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <div>
+                            <label for="time">Time</label>
+                            <select id="time" required>
+                                <option value="">Select time</option>
+                                <option value="12:00">12:00 PM</option>
+                                <option value="14:00">2:00 PM</option>
+                                <option value="18:00">6:00 PM</option>
+                                <option value="20:00">8:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <label for="guests">Number of Guests</label>
+                    <input type="number" id="guests" min="1" max="20" value="2" required>
+
+                    <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <a href="index.html" style="color: #F7F4EC; text-decoration: none; font-weight: bold;">Taste of Salone</a>
+            <p style="font-size: 0.85rem; margin-top: 5px; margin-bottom: 0;">Experience the Flavours of Sierra Leone</p>
+        </div>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+        </ul>
+        <p style="font-size: 0.85rem; color: #888; margin-bottom: 0;">&copy; 2026 Taste of Salone. All rights reserved.</p>
+    </footer>
+</body>
+</html>

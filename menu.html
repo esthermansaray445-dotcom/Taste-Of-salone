@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste of Salone - Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">Taste of Salone</a>
+        </div>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html" aria-current="page">Menu</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="reservations.html" class="btn-nav-cta">Book a Table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p style="text-transform: uppercase; letter-spacing: 1px; font-size: 0.85rem; color: #aaa;">Our Menu</p>
+        <h1>Fresh Ingredients.<br>Authentic Flavours.</h1>
+        <p>Our menu features a blend of traditional Sierra Leonean dishes and international favourites, all prepared with fresh, high-quality ingredients and a passion for great food.</p>
+
+        <!-- Category Tabs -->
+        <div style="display: flex; gap: 10px; margin: 30px 0; flex-wrap: wrap;">
+            <button class="btn" style="background-color: #F7F4EC;">All</button>
+            <button class="btn" style="background-color: #222; color: #F7F4EC; border: 1px solid #444;">Starters</button>
+            <button class="btn" style="background-color: #222; color: #F7F4EC; border: 1px solid #444;">Main Courses</button>
+            <button class="btn" style="background-color: #222; color: #F7F4EC; border: 1px solid #444;">Seafood</button>
+            <button class="btn" style="background-color: #222; color: #F7F4EC; border: 1px solid #444;">Meat</button>
+            <button class="btn" style="background-color: #222; color: #F7F4EC; border: 1px solid #444;">Vegetarian</button>
+        </div>
+
+        <div class="grid">
+            <article class="card">
+                <img src="images/cassava-leaf.jpg" alt="Cassava Leaf">
+                <h3>Cassava Leaf</h3>
+                <p>A classic local delicacy simmered with palm oil, fish, and meat.</p>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+                    <strong style="color: #F7F4EC; font-size: 1.1rem;">$10</strong>
+                    <a href="dish-details.html" class="text-link">View details &rarr;</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="images/fried-plantains-and-beans.jpg" alt="Fried Plantains and Beans">
+                <h3>Fried Plantains & Beans</h3>
+                <p>Sweet golden fried plantains served with a savory seasoned bean stew.</p>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+                    <strong style="color: #F7F4EC; font-size: 1.1rem;">$8</strong>
+                    <a href="dish-details.html" class="text-link">View details &rarr;</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="images/potato-leaf-stew.jpg" alt="Potato Leaf Stew">
+                <h3>Potato Leaf Stew</h3>
+                <p>Finely shredded sweet potato leaves cooked in rich palm oil and spices.</p>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+                    <strong style="color: #F7F4EC; font-size: 1.1rem;">$12</strong>
+                    <a href="dish-details.html" class="text-link">View details &rarr;</a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <a href="index.html" style="color: #F7F4EC; text-decoration: none; font-weight: bold;">Taste of Salone</a>
+            <p style="font-size: 0.85rem; margin-top: 5px; margin-bottom: 0;">Experience the Flavours of Sierra Leone</p>
+        </div>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+        </ul>
+        <p style="font-size: 0.85rem; color: #888; margin-bottom: 0;">&copy; 2026 Taste of Salone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
